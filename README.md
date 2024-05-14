@@ -28,27 +28,7 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Navigate to "Path."
   - Locate the bin folder for PostgreSQL 16 on your system (e.g., `C:\Program Files\PostgreSQL\16\bin`). Add this path to your system's Path variables and press OK.
 
-### Getting Started (macOS)
 
-- **Download and Install PostgreSQL 16**: 
-  [Visit the official website](https://www.postgresql.org/download/)
-
-- **Add PostgreSQL 16 to Path Environment**:
-  - Open Terminal.
-  - Edit your shell profile file (e.g., `.bash_profile`, `.zshrc`, or `.bashrc`) using a text editor like nano or vim. For example:
-    ```
-    nano ~/.bash_profile
-    ```
-  - Add the following line to the end of the file, replacing `<installation_path>` with the actual path where PostgreSQL is installed (e.g., `/Library/PostgreSQL/16/bin`):
-    ```
-    export PATH=$PATH:<installation_path>
-    ```
-  - Save and close the file.
-  - Restart Terminal or run `source ~/.bash_profile` for the changes to take effect.
-
-
-
-### Getting Started (cont.)
 - **Creating a Database**:
   - Open the Command Line Interface (CLI) and type: 
     ```
@@ -80,6 +60,45 @@ This orientation aims to familiarize anyone interested in running and testing th
     \i db_import.sql
     ```
   - To verify everything looks good you can enter ``` \dt ``` and the tables ought to be displayed.
+
+
+### Getting Started (macOS)
+
+- **Download and Install PostgreSQL 16**: 
+  [Visit the official website](https://www.postgresql.org/download/)
+
+- **Add PostgreSQL 16 to Path Environment**:
+  - Open Terminal.
+  - Edit your shell profile file (e.g., `.bash_profile`, `.zshrc`, or `.bashrc`) using a text editor like nano or vim. For example:
+    ```
+    nano ~/.bash_profile
+    ```
+  - Add the following line to the end of the file, replacing `<installation_path>` with the actual path where PostgreSQL is installed (e.g., `/Library/PostgreSQL/16/bin`):
+    ```
+    export PATH=$PATH:<installation_path>
+    ```
+  - Save and close the file.
+  - Restart Terminal or run `source ~/.bash_profile` for the changes to take effect.
+
+- **Creating a Database**:
+  - Open Terminal and type:
+    ```
+    psql -U postgres
+    ```
+  - You may be asked to enter a password. If you don't have one yet, press enter to skip.
+  - After connecting to PostgreSQL, create a new database using the following SQL command:
+    ```
+    CREATE DATABASE database_name;
+    ```
+  - Connect to the newly created database:
+    ```
+    \c database_name
+    ```
+  - Import the database schema dump by typing:
+    ```
+    \i /path/to/db_import.sql
+    ```
+  - To verify, enter `\dt` to list the tables.  
 
 - **Cloning the Github Repository**:
   - Before we can connect the database to our codebase, we must first clone our backend environment's repository.
