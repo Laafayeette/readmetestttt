@@ -100,18 +100,18 @@ This orientation aims to familiarize anyone interested in running and testing th
     ```
   - To verify, enter `\dt` to list the tables.  
 
-- **Cloning the Github Repository**:
+### Cloning the Github repository
   - Before we can connect the database to our codebase, we must first clone our backend environment's repository.
   - Clone the repository from [Menumatic Backend Github Page](https://github.com/team-havstrut-2024/menumatic-backend) into any directory of your choice.
 
-- **Creating a Maven Project (Instructions are for Intellij)**:
+### Creating a Maven Project (Instructions are for Intellij):
   - Run Intellij Ultimate Edition (any edition works fine).
   - Select ``` New project from existing sources ```
   - Choose the folder in which you cloned the repository and press OK.
   - Choose Maven and press OK.
   - Verify that the pom.xml file matches the one on Github.
 
-- **Connecting to the database via Spring JDBC**
+### Connecting to the database via Spring JDBC
   - Now we are ready to connect our codebase to the database.
   - Navigate to the "resources" folder and open the ``` application.properties ```.
   - Modify the `spring.datasource.url`, `spring.datasource.username`, and `spring.datasource.password` to match your PostgreSQL credentials and database name.
@@ -135,5 +135,4 @@ This orientation aims to familiarize anyone interested in running and testing th
     - Enter your username and password.
     - `Database: <Name of your database>`.
     - Test the connection, apply, and then OK.
-
 
