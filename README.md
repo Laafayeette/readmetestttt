@@ -1,8 +1,8 @@
 ## Backend Orientation: Menumatic
 
-This orientation aims to familiarize anyone interested in running and testing this project. The backend environment is written in Java 17 using the Spring Boot framework.
+This orientation aims to familiarize anyone interested in running and testing this project. The backend environment is written in Java 17 using the Spring Boot framework. This tutorial covers only the backend aspect of the application, and assumes that the user is also opting running the   [frontend tutorial](https://github.com/Daniel3178/menumatic/blob/master/README.md) to run the fullstack application.
 
-**IDE:** IntelliJ Ultimate Edition is recommended, but you may choose any other IDE that works best for you. The Ultimate Edition provides easy JDBC connectivity.
+**IDE:** IntelliJ Ultimate Edition is recommended, as this was the IDE used for this project hence the tutorial will be written with that in mind. You may however choose any other IDE that works best for you, following general instructions for how to setup what is described below.
 
 ### Spring Boot Dependencies
 
@@ -62,7 +62,7 @@ This orientation aims to familiarize anyone interested in running and testing th
   - To verify everything looks good you can enter ``` \dt ``` and the tables ought to be displayed.
 
 
-### Getting Started (macOS - Optional - Look for external sources to help)
+### Getting Started (macOS - If not optimal, look for external tutorials.)
 
 - **Download and Install PostgreSQL 16**: 
   [Visit the official website](https://www.postgresql.org/download/)
