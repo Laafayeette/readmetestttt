@@ -73,4 +73,23 @@ This orientation aims to familiarize anyone interested in running and testing th
 
 - **Connecting to the database via Spring JDBC**
   - Now we are ready to connect our codebase to the database.
-  - Navigate to the "resources" folder and open the 
+  - Navigate to the "resources" folder and open the "application.properties" file.
+  - Looking at the:
+    ```
+    spring.datasource.url=jdbc:postgresql://localhost:5432/menumatic
+    ```
+    The ``` /menumatic ``` represents the name of your database. Meaning, replace "menumatic" with whatever you named your database.
+  - Modify the values below to match your PostgreSQL credentials:
+    ```
+    spring.datasource.username=<your username, usually is "postgres">
+    spring.datasource.password=<password, empty if you have none>
+    ```
+  - Now we are ready to run the application. Head over to ```MenumaticApplication" and run the program.
+
+  - If this does not work, Ultimate edition you can also connect to the database via the following steps:
+  - On the right side of the Intellij, press on the database logo.
+  - Click on "New" -> "Data Source" -> "PostgreSQL"
+  - Enter your username and password
+  - Database: <Name of your database>
+  - Test connection
+  - Apply and then OK.
