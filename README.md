@@ -28,6 +28,27 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Navigate to "Path."
   - Locate the bin folder for PostgreSQL 16 on your system (e.g., `C:\Program Files\PostgreSQL\16\bin`). Add this path to your system's Path variables and press OK.
 
+### Getting Started (macOS)
+
+- **Download and Install PostgreSQL 16**: 
+  [Visit the official website](https://www.postgresql.org/download/)
+
+- **Add PostgreSQL 16 to Path Environment**:
+  - Open Terminal.
+  - Edit your shell profile file (e.g., `.bash_profile`, `.zshrc`, or `.bashrc`) using a text editor like nano or vim. For example:
+    ```
+    nano ~/.bash_profile
+    ```
+  - Add the following line to the end of the file, replacing `<installation_path>` with the actual path where PostgreSQL is installed (e.g., `/Library/PostgreSQL/16/bin`):
+    ```
+    export PATH=$PATH:<installation_path>
+    ```
+  - Save and close the file.
+  - Restart Terminal or run `source ~/.bash_profile` for the changes to take effect.
+
+
+
+### Getting Started (cont.)
 - **Creating a Database**:
   - Open the Command Line Interface (CLI) and type: 
     ```
@@ -74,6 +95,8 @@ This orientation aims to familiarize anyone interested in running and testing th
 - **Connecting to the database via Spring JDBC**
   - Now we are ready to connect our codebase to the database.
   - Navigate to the "resources" folder and open the ``` application.properties ```.
+  - Modify the `spring.datasource.url`, `spring.datasource.username`, and `spring.datasource.password` to match your PostgreSQL credentials and database name.
+
   - Looking at the:
     ```
     spring.datasource.url=jdbc:postgresql://localhost:5432/menumatic
@@ -84,13 +107,14 @@ This orientation aims to familiarize anyone interested in running and testing th
     spring.datasource.username=<your username, usually is "postgres">
     spring.datasource.password=<password, empty if you have none>
     ```
-  - Now we are ready to run the application. Head over to ```MenumaticApplication ``` and run the program.
+  - Now we are ready to run the application.
+  - Run the application by running `MenumaticApplication`.
 
-  - If this does not work, via the Ultimate edition you can also connect to the database via the following steps:
-  - On the right side of the Intellij, press on the database logo.
-  - Click on "New" -> "Data Source" -> "PostgreSQL"
-  - Enter your username and password
-  - ``` Database: <Name of your database> ```
-  - Test connection
-  - Apply and then OK.
+  - Alternatively, you can connect to the database via IntelliJ:
+    - On the right side of IntelliJ, press on the database logo.
+    - Click on `New` -> `Data Source` -> `PostgreSQL`.
+    - Enter your username and password.
+    - `Database: <Name of your database>`.
+    - Test the connection, apply, and then OK.
+
 
