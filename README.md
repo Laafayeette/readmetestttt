@@ -1,22 +1,3 @@
-# menumatic-backend
-Backend server for menumatic.
-## Depedencies
-1. Java 17
-2. Maven
-3. Tomcat 10
-The rest should be automatically installed via maven.
-### Database
-PostgreSQL is used as DBMS.
-Can be installed either manually or via docker.
-
-## Running the server
-### IntelliJ
-IntelliJ IDEA ultimate can also be used, which can manage many things automatically
-### Manually
-1. Navigate to project root folder
-2. Run the command 
-./mvnw spring-boot:run
-
 ## Backend Orientation: Menumatic
 
 This orientation aims to familiarize anyone interested in running and testing this project. The backend environment is written in Java 17 using the Spring Boot framework. This tutorial covers only the backend aspect of the application, and assumes that the user is also running the [frontend tutorial](https://github.com/Daniel3178/menumatic/blob/master/README.md) to run the fullstack application.
@@ -183,5 +164,5 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Test the connection, apply, and then OK.
 
 ### Running Manually Without IDE
-- Naviate to project root folder
+- Navigate to project root folder
 - Run the command ```./mvnw spring-boot:run```
