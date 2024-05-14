@@ -20,8 +20,8 @@ This orientation aims to familiarize anyone interested in running and testing th
 
 ### Install Apache Maven
 - Download and install Maven from [here](https://maven.apache.org/download.cgi)
-- Download the latest version, for example:  ```(e.g., apache-maven-3.8.5-bin.zip)```
-- Extract the Zip file and choose a destination folder ```(e.g., C:\Program Files\Apache\)```
+- Download the latest version, for example: (e.g., `apache-maven-3.8.5-bin.zip`)
+- Extract the Zip file and choose a destination folder (e.g., `C:\Program Files\Apache\`)
 
 
 ### Getting Started With Postgres (Windows)
