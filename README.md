@@ -38,4 +38,9 @@ This orientation aims to familiarize anyone interested in running and testing th
     ```
     CREATE DATABASE database_name;
     ```
-    
+  - Connect to the newly created database.
+    ```
+    \c database_name
+    ```
+  - Now we must import the db_import.sql file which will generate the database schema for Menumatic.
+  - Download the db_import.sql file from the
