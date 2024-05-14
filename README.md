@@ -23,13 +23,22 @@ This orientation aims to familiarize anyone interested in running and testing th
 - Download the latest version, for example: (e.g., `apache-maven-3.8.5-bin.zip`)
 - Extract the Zip file and choose a destination folder (e.g., `C:\Program Files\Apache\`)
 
+##### Add Maven to Path Variables
+  - Navigate to System Properties in Settings.
+  - Click on Path Variables.
+  - Navigate to "Path."
+  - Locate the bin folder for Maven on your system (e.g., `C:\Program Files\Apache\apache-maven-3.8.5\bin`). Add this path to your system's Path variables and press OK.
+
+  - You may also add ``%MAVEN_HOME%\bin``` to the Path as well.
+
+
 
 ### Getting Started With Postgres (Windows)
 
 - **Download and Install PostgreSQL 16**: 
   [Visit the official website](https://www.postgresql.org/download/)
 
-- **Add PostgreSQL 16 to Path Environment**:
+- **Add PostgreSQL 16 to Path Variables**:
   - Navigate to System Properties in Settings.
   - Click on Path Variables.
   - Navigate to "Path."
