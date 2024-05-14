@@ -58,4 +58,14 @@ This orientation aims to familiarize anyone interested in running and testing th
     ```
     \i db_import.sql
     ```
-  - To verify everything looks good you can type ``` \dt ```
+  - To verify everything looks good you can enter ``` \dt ``` and the tables ought to be displayed.
+
+- **Cloning the Github Repository**:
+  - Before we can connect the database to our codebase, we must first clone our backend environment's repository.
+  - Clone the repository from [Menumatic Backend Github Page](https://github.com/team-havstrut-2024/menumatic-backend) into any directory of your choice.
+
+- **Creating a Maven Project (Instructions are for Intellij)**:
+  - Run Intellij Ultimate Edition (any edition works fine).
+  - Select "New project from existing sources"
+  - Choose the folder in which you cloned the repository and press OK.
+  - Choose Maven and press OK.
