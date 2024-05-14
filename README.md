@@ -4,6 +4,12 @@ This orientation aims to familiarize anyone interested in running and testing th
 
 **IDE:** IntelliJ Ultimate Edition is recommended, as this was the IDE used for this project hence the tutorial will be written with that in mind. You may however choose any other IDE that works best for you, following general instructions for how to setup what is described below.
 
+### Dependencies
+- Java 17
+- Maven
+- Tomcat 10
+<small> The rest is installed via Maven.
+
 ### Spring Boot Dependencies
 <small>Automatically included in the `pom.xml` file when cloning and running the project.</small>
 - **Spring Web**
