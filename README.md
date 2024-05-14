@@ -29,7 +29,7 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Navigate to "Path."
   - Locate the bin folder for Maven on your system (e.g., `C:\Program Files\Apache\apache-maven-3.8.5\bin`). Add this path to your system's Path variables and press OK.
 
-  - You may also add ``%MAVEN_HOME%\bin``` to the Path as well.
+  - You may also add ```%MAVEN_HOME%\bin``` to the Path as well.
 
 
 
