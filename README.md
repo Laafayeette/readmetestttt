@@ -43,4 +43,9 @@ This orientation aims to familiarize anyone interested in running and testing th
     \c database_name
     ```
   - Now we must import the db_import.sql file which will generate the database schema for Menumatic.
-  - Download the db_import.sql file from the
+  - Download the db_import.sql file from the [Menumatic Backend Github Page](https://github.com/team-havstrut-2024/menumatic-backend)
+  - Locate to the directory it was downloaded onto (e.g., `C:\Dokument\Menumatic\Backend`) and copy path.
+  - Now we must cd into the path in the CLI, and as such we must disconnect from the database:
+    ```
+
+    
