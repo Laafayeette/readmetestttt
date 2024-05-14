@@ -58,4 +58,4 @@ This orientation aims to familiarize anyone interested in running and testing th
     ```
     \i db_import.sql
     ```
-  - To verify everything looks good you can type ``` \dt ````
+  - To verify everything looks good you can type ``` \dt ```
