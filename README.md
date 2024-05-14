@@ -129,10 +129,9 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Now we are ready to run the application.
   - Run the application by running `MenumaticApplication`.
 
-  - Alternatively, you can connect to the database via IntelliJ:
-    - On the right side of IntelliJ, press on the database logo.
-    - Click on `New` -> `Data Source` -> `PostgreSQL`.
-    - Enter your username and password.
-    - `Database: <Name of your database>`.
-    - Test the connection, apply, and then OK.
-
+#### Alternatively, you can connect to the database via IntelliJ (Ultimate Edition):
+  - On the right side of IntelliJ, press on the database logo.
+  - Click on `New` -> `Data Source` -> `PostgreSQL`.
+  - Enter your username and password.
+  - `Database: <Name of your database>`.
+  - Test the connection, apply, and then OK.
