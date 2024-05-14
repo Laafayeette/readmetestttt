@@ -84,12 +84,14 @@ This orientation aims to familiarize anyone interested in running and testing th
     spring.datasource.username=<your username, usually is "postgres">
     spring.datasource.password=<password, empty if you have none>
     ```
-  - Now we are ready to run the application. Head over to ```MenumaticApplication" and run the program.
+  - Now we are ready to run the application. Head over to ```MenumaticApplication ``` and run the program.
 
-  - If this does not work, Ultimate edition you can also connect to the database via the following steps:
+  - If this does not work, via the Ultimate edition you can also connect to the database via the following steps:
   - On the right side of the Intellij, press on the database logo.
   - Click on "New" -> "Data Source" -> "PostgreSQL"
   - Enter your username and password
-  - Database: <Name of your database>
+  - ``` Database: <Name of your database> ```
   - Test connection
   - Apply and then OK.
+
+
