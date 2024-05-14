@@ -5,7 +5,7 @@ This orientation aims to familiarize anyone interested in running and testing th
 **IDE:** IntelliJ Ultimate Edition is recommended, as this was the IDE used for this project hence the tutorial will be written with that in mind. You may however choose any other IDE that works best for you, following general instructions for how to setup what is described below.
 
 ### Spring Boot Dependencies
-
+###### These are automatically included in the ``` pom.xml ``` file when cloning and running the project.
 - **Spring Web**
 - **Spring Data JPA**
 - **Spring Data REST**
