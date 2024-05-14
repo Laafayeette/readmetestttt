@@ -1,6 +1,6 @@
 ## Backend Orientation: Menumatic
 
-This orientation aims to familiarize anyone interested in running and testing this project. The backend environment is written in Java 17 using the Spring Boot framework. This tutorial covers only the backend aspect of the application, and assumes that the user is also opting running the   [frontend tutorial](https://github.com/Daniel3178/menumatic/blob/master/README.md) to run the fullstack application.
+This orientation aims to familiarize anyone interested in running and testing this project. The backend environment is written in Java 17 using the Spring Boot framework. This tutorial covers only the backend aspect of the application, and assumes that the user is also running the [frontend tutorial](https://github.com/Daniel3178/menumatic/blob/master/README.md) to run the fullstack application.
 
 **IDE:** IntelliJ Ultimate Edition is recommended, as this was the IDE used for this project hence the tutorial will be written with that in mind. You may however choose any other IDE that works best for you, following general instructions for how to setup what is described below.
 
