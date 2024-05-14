@@ -33,4 +33,9 @@ This orientation aims to familiarize anyone interested in running and testing th
     ```
     psql -U postgres
     ```
-  - After connecting to PostgreSQL, create a new database using SQL commands.
+  - You may be asked to enter password. If you don't have one yet, press enter to skip.
+  - After connecting to PostgreSQL, create a new database using the following SQL command.
+    ```
+    CREATE DATABASE database_name;
+    ```
+    
