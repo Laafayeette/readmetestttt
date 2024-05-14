@@ -47,5 +47,15 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Locate to the directory it was downloaded onto (e.g., `C:\Dokument\Menumatic\Backend`) and copy path.
   - Now we must cd into the path in the CLI, and as such we must disconnect from the database:
     ```
-
-    
+    CTRL + c
+    ```
+  - Enter the path for the db_import.sql file (example): 
+    ```
+    cd C:\Dokument\Menumatic\Backend
+    ```
+  - Now connect back into the database using the step shown above.
+  - Once connected we import the database schema dump:
+    ```
+    \i db_import.sql
+    ```
+  - 
