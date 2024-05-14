@@ -62,7 +62,7 @@ This orientation aims to familiarize anyone interested in running and testing th
   - To verify everything looks good you can enter ``` \dt ``` and the tables ought to be displayed.
 
 
-### Getting Started (macOS)
+### Getting Started (macOS - Optional - Look for external sources to help)
 
 - **Download and Install PostgreSQL 16**: 
   [Visit the official website](https://www.postgresql.org/download/)
