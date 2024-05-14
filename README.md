@@ -69,3 +69,8 @@ This orientation aims to familiarize anyone interested in running and testing th
   - Select "New project from existing sources"
   - Choose the folder in which you cloned the repository and press OK.
   - Choose Maven and press OK.
+  - Verify that the pom.xml file matches the one on Github.
+
+- **Connecting to the database via Spring JDBC**
+  - Now we are ready to connect our codebase to the database.
+  - Navigate to the "resources" folder and open the 
